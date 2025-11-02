@@ -1,4 +1,8 @@
 ! core-01
+! interface mgmt0
+!  vrf member management
+!  ip address 10.237.96.212/27
+
 
 interface Ethernet1/9.11
   description hf-FDO283909CB e1_63.11
