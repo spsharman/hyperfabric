@@ -25,6 +25,15 @@ Each Hyperfabric also rack has 3x (very) old C series servers attached to the Si
 - 10.2.5.0/24
 - etc
 
+#### Host connectivity
+
+The servers detailed below are very old and require Flash and Java to access the CIMC, this is possible only from an old jumphost in the lab. 
+
+- UCS-C220-M3 - FCH1623VE85 | CIMC 10.237.98.25 | ESXi 7.0 update 3 | vmk0 10.237.102.29
+- UCS-C220-M3 - FCH1736V26V | CIMC 10.237.98.26 | no OS
+- UCS-C220-M3 - FCH1735V1LG | CIMC 10.237.98.27 | no OS
+
+
 ### Rack L16: AS65116
 
 [Rack-l16 details](/images/hyperfabric-l16/rack-layout.png)
@@ -36,6 +45,13 @@ Each Hyperfabric also rack has 3x (very) old C series servers attached to the Si
 - 10.2.105.0/24
 - etc
 
+#### Host connectivity
+
+The servers detailed below are very old and require Flash and Java to access the CIMC, this is possible only from an old jumphost in the lab. 
+
+- UCS-C220-M3 - FCH1813V0B1 | CIMC 10.237.98.28 | ESXi 7.0 update 3 | vmk0 10.237.102.185 (dhcp)
+- UCS-C220-M3 - FCH2003V1L8 | CIMC 10.237.98.29 | ESXi 7.0 update 3 | vmk0 10.237.102.188 (dhcp)
+- UCS-C220-M3 - FCH2003V08P | CIMC 10.237.98.30 | ESXi 7.0 update 3 | vmk0 10.237.102.190 (dhcp)
 
 ### ACI connectivity
 
